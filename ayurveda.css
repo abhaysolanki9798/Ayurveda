@@ -1,0 +1,853 @@
+body{
+    font-family: manrope, sans-serif;
+}
+
+
+/* 1st header(start here)*/                                           
+.main-header{
+     background-color: white;
+     height: 60px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+}
+#headerlogo{
+    width: 320px;
+    height: 35px;
+    
+}
+
+.header-button-phone{
+    padding: 15px 25px;
+    font-size: 16px; 
+    color:#009689;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    margin-right: 20px;
+    border: 1px black solid;
+}
+.header-button-phone:hover{
+    background-color: #009689;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+.header-button-book{
+    padding: 15px 30px;  
+    font-size: 16px;
+    color: white;
+    background-color: #009689;
+    border-radius: 8px;
+    border: 1px #009689 solid;
+    font-weight: 600;
+    font-family: manrope, sans-serif;                               
+}
+.header-button-book:hover{
+    background-color: white;
+    color: #009689;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+/*header saction css (end here)*/
+
+ /*Naturopathy & Acupuncture for Optimal Health(start here)*/
+.naturopathy{
+    width: 100%;
+    height: 400px;
+    background-image: url('dr-img/Naturopathy-Acupuncture-for-Optimal-Health.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.naturopathy h1{
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 40px;
+}
+.naturopathy p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;   
+}
+.naturopathy button{
+    background-color: white;
+    color: #009689;
+    font-weight: 600;
+    margin-top: 60px;
+    padding: 17px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px #009689 solid;
+}        
+.naturopathy button:hover{
+    background-color: #009689;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}                   
+/*Naturopathy & Acupuncture for Optimal Health(css end here)*/
+
+/*Naturopathy - Natural Science at Work(css start here)*/
+.services-button{
+     padding: 12px 25px;
+    font-size: 15px; 
+    color:#009689;
+    background-color: #f0fdfa;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    margin-right: 20px;
+    border: 1px #009689 solid;
+    margin-top: 50px;
+}
+.services-button:hover{
+     background-color:#009689;
+    color:white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.services-sac{
+    text-align: center;
+}
+.services-sac h2{
+     font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    color:#00302c;
+       
+}
+.services-sac img{
+    height: 500px;
+    width: 500px;
+    align-items: left;
+    margin:20px 40px 0 100px;
+    
+}
+.services-sac-image-p{
+    display: flex;
+    text-align: justify;
+    line-height: 1.7;    
+    overflow-wrap: break-word; 
+    
+}
+.services-sac-image-p  p{
+     font-family: manrope, sans-serif;  
+     color: rgb(58, 53, 53);
+     margin-right: 60px;
+     font-size: 18px;
+     word-spacing: 10spx;
+}
+.consultation-button{
+    padding: 15px 25px;
+    font-size: 16px; 
+    color:white;
+    background-color:#009689;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    margin-left: 150px;
+    border: 1px black solid;
+
+}
+.consultation-button:hover{
+    background-color:#ffffff;
+    color:#009689;
+    transition: 0.3s;
+    cursor: pointer;
+}    /*Naturopathy - Natural Science at Work(css end here)*/
+
+/*Our Clinical Approach For Acupuncture(saction start here)*/
+
+.clinical{        
+    width: 100%;
+    height: 730px;
+    background-color:#f0fdfa;
+    margin-top: 50px;
+    display: flex;
+}
+.clinical-a{                  /*Clinical Div A*/
+    width: 60%;
+}
+.clinical-a h2{
+    padding: 20px 20px 0 100px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    font-size: 34px;
+
+}
+.clinical-a p{
+    word-spacing: 10px;
+    padding: 10px 30px 20px 100px;
+    font-family: manrope, sans-serif;
+    color:#4a4a4a;
+    font-size: 18px;
+}
+.clinical-a2{
+    height: 130px;
+    width: 75%;
+    border: 1px white solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(219, 216, 216);
+    background-color: white;
+    margin-left:100px;
+    font-family:manrope, sans-serif;
+}
+.clinical-a2 h2{
+    font-size: 22px;
+    padding: 0 10px 0 30px;
+    color: #009689;
+}
+.clinical-a2 p{
+    font-size: 16px;
+    word-spacing: 3px;
+    padding: 0 10px 0 30px;
+
+}
+.clinical-b{             /*Clinical Div B*/
+    width: 40%;
+    margin-top: 20px;
+    
+}
+.clinical-b2{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+.clinical-b2 img{
+    height: 30px;
+    width: 30px;
+}
+.clinical-b2 h2{
+    font-family: manrope, sans-serif;
+    font-size: 18px;
+    color: rgb(73, 71, 71);
+}
+.clinical-b3{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.clinical-b3 img{
+    width: 50px;
+    height: 50px;
+    object-fit:contain;
+}
+.clinical-b3 h3{
+    margin: 0;
+}
+.clinical hr{
+    width: 80%;
+    margin-left: 0;
+    margin: 0;
+    opacity: 0.6;
+    margin: 15px 0 15px 0;
+}
+ /*Our Clinical Approach For Acupuncture(css end here)*/
+
+ /*Acupuncture - Regulating the Body’s Natural Systems(saction start here)*/
+
+ .Acupuncture{
+    width: 100%;
+    
+    background-color: white;
+    text-align: center;
+    
+ }
+ .Acupuncture h2{
+    font-size: 34px;
+     font-family: manrope, sans-serif;
+ }
+ .Acupuncture-ab{
+    display: flex;
+ }
+ .Acupuncture-a{
+    width:50%;
+
+ }
+ .Acupuncture-a img{
+    height: 500px;
+    width: 450px;
+ }
+ .Acupuncture-b{
+    width: 50%;
+    text-align: justify;
+    word-spacing: 10px;
+    line-height: 25px;
+    margin-right:50px; 
+ }
+
+  /*Why Choose Us(css start here)*/
+
+.sec-choose{
+    width: 100%;
+    height: 500px;
+    background-color: #00302c;
+    text-align: center;
+    align-items: center;
+
+}
+.sec-choose h2{
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 34px;
+    padding-top: 50px;
+    word-spacing: 3px;
+}
+#choose-main-div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#choose-main-div img{
+    height:60px;
+    width: 70px;
+    padding-top: 20px;
+}
+#choose-main-div h2{
+    font-size: 22px;
+    padding-top: 20px;
+}
+#choose-main-div h3{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0 4px 0 4px;
+     color: white;
+    font-family: Montserrat, sans-ser   if;
+}
+#choose-main-div p{
+    font-size: 16px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    padding: 0px 10px 10px 10px;
+}
+.choose-1{
+    height: 280px;
+    width: 330px;
+    border:none;
+    border-radius: 20px;
+    background-color: #00968966;
+}
+.choose-2{
+    height: 280px;
+    width: 330px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00968966;
+}
+.choose-2 button{    
+    padding: 15px 25px;
+    font-size: 16px; 
+    color:white;
+    background-color: #009689;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    margin-right: 20px;
+    border: 1px black solid;
+}
+.choose-2 button:hover{
+    background-color: white;
+    color: #009689;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    cursor: pointer;
+}   
+.choose-3{
+    height: 280px;
+    width: 330px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00968966;
+}
+ /*Why Choose Us(css end here)*/
+
+        /*Meet Shaun French(css start here)*/
+  
+.french{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+}        
+.french h2{
+    margin: 40px 0 0 0;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#00302c;
+}
+.french h3{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #009689;
+}
+.french p{
+    margin-bottom: 50px;
+}
+.french-ab{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.french-a{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.french-a img{
+    height: 450px;
+    width: 450px;
+    border-radius: 15px;
+
+}
+.french-a2{
+    height: 300px;
+    width:450px;
+    background-color:#F0FDFA;
+    border-left:5px solid #00302c;
+    border-right: 5px solid #00302c;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 25px;
+    
+}
+.french-b{
+    width: 60%;
+    text-align: left;
+}
+.french-b h3{
+    font-family:  "Montserrat", Sans-serif;
+    font-size: 20px;
+    color: #009689;
+    font-weight: 600;
+}
+.french-b p{
+    text-align: justify;
+    margin:20px;
+    color: rgb(82, 79, 79);
+}
+ /*Meet Shaun French(sactin end here)*/
+
+
+ /*Conditions Treated (saction start here)*/
+.condition{
+    width: 100%;
+    height: 450px;
+    background-image: url('dr-img/Conditions-Treated.jpg');
+    text-align: center;
+    
+}
+.condition h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat", Sans-serif;
+}
+.condition ul{
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.condition ul li{
+    color: white;
+    font-size: 18px;
+    padding: 15px 0;
+
+}
+.condition p{
+    color: rgb(224, 217, 217);
+    font-size: 18px;
+    font-family: "Montserrat", Sans-serif;
+    padding-bottom: 10px;
+}
+.condition h2{
+    color: white;
+    font-size: 34px;
+    font-family: "Montserrat", Sans-serif;
+    padding-top: 50px;
+}
+.condition hr{
+    width: 60%;
+}
+.condition-ab{
+    display: flex;
+    width: 100%;
+    
+}
+.condition-a{
+    width: 50%;
+}
+.condition-b{
+    width: 50%;
+}
+ /*Conditions Treated (saction end here)*/
+
+ /*last button start here*/
+.last-button-div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+.last-button{
+    padding: 15px 25px;
+    align-items: center;
+    font-size: 16px; 
+    color:white;
+    background-color:#009689;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    margin-left: 150px;
+    border: 1px black solid;
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    background-color: #00302c;
+    display: flex;
+    font-family: "Montserrat", Sans-serif;
+    
+}
+.footer-a{
+    width: 50%;
+    font-family: "Montserrat", Sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+.footer-a h2{
+    color: rgb(190, 185, 185);
+    font-size: 34px;
+}
+.footer-a h3{
+    color: rgb(243, 237, 237);
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.footer-b{
+    width: 50%;
+}
+.footer-b h3{
+    color: white;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.footer-b li{
+    line-height: 30px;
+    color: white;
+
+}
+.footer-b hr{
+    width: 70% ;
+    margin: 8px 0;  
+    background-color:rgb(146, 141, 141);
+    border: none;
+    height: 1px;
+}
+@media (max-width: 720px) {
+    #choose-main-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-button-phone {
+    padding: 6px 14px;
+    font-size: 11px;
+    color: #009689;
+    background-color: #f0fdfa;
+    border-radius: 8px;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    border: 1px black solid;
+    margin: 0px;
+}
+.header-button-book {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #009689;
+    border-radius: 8px;
+    border: 1px #009689 solid;
+    font-weight: 600;
+    font-family: manrope, sans-serif;
+    display: none;
+}
+}  
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    /* Header */
+
+    .main-header{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    #headerlogo{
+        width: 250px;
+        height: auto;
+    }
+
+    .header-button-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .header-button-phone,
+    .header-button-book{
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Hero Section */
+
+    .naturopathy{
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .naturopathy h1{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .naturopathy p{
+        font-size: 16px;
+    }
+
+    .naturopathy button{
+        margin-top: 30px;
+    }
+
+    /* Services */
+
+    .services-sac h2{
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .services-sac-image-p{
+        flex-direction: column;
+    }
+
+    .services-sac img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .services-sac-image-p p{
+        margin: 20px 15px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .consultation-button{
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Clinical */
+
+    .clinical{
+        flex-direction: column;
+        height: auto;
+        padding: 30px 15px;
+    }
+    .clinical-b h3 {
+        font-size: 11px;
+    }
+    .clinical-a,
+    .clinical-b{
+        width: 100%;
+    }
+
+    .clinical-a h2{
+        padding: 0;
+        font-size: 28px;
+    }
+
+    .clinical-a p{
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .clinical-a2{
+        width: 100%;
+        margin: 20px 0;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .clinical-b{
+        margin-top: 30px;
+    }
+
+    /* Acupuncture */
+
+    .Acupuncture h2{
+        font-size: 28px;
+        padding: 0 15px;
+    }
+
+    .Acupuncture-ab{
+        flex-direction: column;
+    }
+
+    .Acupuncture-a,
+    .Acupuncture-b{
+        width: 100%;
+    }
+
+    .Acupuncture-a img{
+        width: 100%;
+        height: auto;
+    }
+
+    .Acupuncture-b{
+        padding: 20px 15px;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    /* Why Choose Us */
+
+    .sec-choose{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #choose-main-div{
+        flex-direction: column;
+    }
+
+    .choose-1,
+    .choose-2,
+    .choose-3{
+        width: 95%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    /* Shaun Section */
+
+    .french{
+        height: auto;
+        padding: 20px 15px;
+    }
+
+    .french-ab{
+        flex-direction: column;
+    }
+
+    .french-a,
+    .french-b{
+        width: 100%;
+    }
+
+    .french-a img{
+        width: 100%;
+        height: auto;
+    }
+
+    .french-a2{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .french-b{
+        margin-top: 20px;
+    }
+
+    /* Conditions */
+
+    .condition{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .condition-ab{
+        flex-direction: column;
+    }
+
+    .condition-a,
+    .condition-b{
+        width: 100%;
+    }
+
+    .condition ul{
+        padding: 0 15px;
+    }
+
+    /* Last Button */
+
+    .last-button{
+        margin-left: 0;
+        width: 90%;
+    }
+
+    /* Footer */
+
+    .footer{
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .footer-a,
+    .footer-b{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer-a h2{
+        font-size: 28px;
+    }
+
+    .footer-b{
+        margin-top: 30px;
+    }
+
+    .footer-b hr{
+        width: 100%;
+    }
+}
